@@ -5,6 +5,12 @@ export default sidebar({
     "",
     "portfolio",
     {
+      text: "LeetCode",
+      icon: "book",
+      prefix: "leetcode/",
+      children: "structure",
+    },
+    {
       text: "案例",
       icon: "laptop-code",
       prefix: "demo/",
@@ -15,12 +21,6 @@ export default sidebar({
       text: "文档",
       icon: "book",
       prefix: "guide/",
-      children: "structure",
-    },
-    {
-      text: "LeetCode",
-      icon: "book",
-      prefix: "leetcode/",
       children: "structure",
     },
     {

@@ -8,6 +8,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "「力扣」题解",
   description: "vuepress-theme-hope 的文档演示",
+  head: [
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/icon/leetcode.jpeg"}]
+  ],
 
   theme,
 

@@ -1,8 +1,8 @@
 ---
 home: true
 icon: home
-title: 项目主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+title: 知识点总结
+heroImage: /assets/image/solutions.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -19,6 +19,51 @@ actions:
     link: ./guide/
 
 highlights:
+  - header: 基础排序算法
+    image: /assets/algo/sort.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    highlights:
+      - title: 从一个最简单的任务开始学习算法；
+      - title: 理解数据特点对算法运行时间有影响；
+      - title: 对时间复杂度有初步理解；
+      - title: 不使用空间，很难节约时间。
+  
+  - header: 高度概括算法与数据结构
+    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
+    image: /assets/image/markdown.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    features:
+      - title: 二分查找
+        icon: clipboard-check
+        details: 利用有序性或者单调性解决问题的算法
+        link: 
+
+      - title: 滑动窗口
+        icon: box-archive
+        details: 暴力解法的优化
+        link: 
+
+      - title: 双指针
+        icon: box-archive
+        details: 暴力解法的优化
+        link: 
+      - title: 链表
+        icon: box-archive
+        details: 离散的线性数据结构
+        link: 
+
+      - title: 哈希表
+        icon: box-archive
+        details: 怎么放就怎么取
+        link: 
+
+
+
   - header: 易于安装
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
