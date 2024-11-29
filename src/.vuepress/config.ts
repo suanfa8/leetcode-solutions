@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/leetcode-solutions/",
 
   lang: "zh-CN",
   title: "「力扣」题解",

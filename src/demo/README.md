@@ -1,9 +1,11 @@
 ---
-title: 主要功能与配置演示
+title: 力扣分类题解
 index: false
 icon: laptop-code
 category:
   - 使用指南
 ---
 
-<Catalog />
+<!-- <Catalog /> -->
+
+这里保存了力扣经典问题的分类题解。
