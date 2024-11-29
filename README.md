@@ -32,6 +32,15 @@ npm i -D katex
 
 参考资料：https://ecosystem.vuejs.press/zh/plugins/blog/comment/
 
+* github workflows 部署失败
+
+报错：`Error: The process '/usr/bin/git' failed with exit code 128`
+
+
+解决方法：需要增加权限配置
+
+https://blog.51cto.com/aiyc/6037421
+
 
 * 特殊格式
 
