@@ -11,6 +11,19 @@
 
 ## 操作记录
 
+* 操作笔记
+
+https://cloud.tencent.com/developer/article/2371440
+
+* 本地启动
+
+http://localhost:8080/leetcode-solutions/
+
+* GitHub Pages 地址
+
+https://suanfa8.github.io/leetcode-solutions/
+
+
 * 启动项目
 
 
