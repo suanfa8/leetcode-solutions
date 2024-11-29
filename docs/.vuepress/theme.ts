@@ -17,7 +17,7 @@ export default hopeTheme({
 
   repo: "suanfa8/leetcode-solutions",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   // 导航栏
   navbar,
