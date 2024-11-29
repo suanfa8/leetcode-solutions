@@ -72,7 +72,7 @@
 
 可以把树的深度优先遍历想象成一只蚂蚁，从根结点绕着树的外延走一圈。每一个结点的外延按照下图分成三个部分：前序遍历是第一部分，中序遍历是第二部分，后序遍历是第三部分。
 
-![image.png](https://pic.leetcode-cn.com/1610298406-MwKKNZ-image.png){:width=400}
+![image.png](https://pic.leetcode-cn.com/1610298406-MwKKNZ-image.png)
 
 
 只看结点的第一部分（红色区域），深度优先遍历到的结点顺序就是「前序遍历」的顺序。
