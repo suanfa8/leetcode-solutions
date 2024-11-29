@@ -18,6 +18,12 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "LeetCode",
+      icon: "book",
+      prefix: "leetcode/",
+      children: "structure",
+    },
+    {
       text: "幻灯片",
       icon: "person-chalkboard",
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
