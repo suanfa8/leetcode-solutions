@@ -30,6 +30,8 @@ npm i -D katex
 
 * 启用评论
 
+参考资料：https://ecosystem.vuejs.press/zh/plugins/blog/comment/
+
 
 * 特殊格式
 
