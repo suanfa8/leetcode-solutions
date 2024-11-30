@@ -1,4 +1,8 @@
-# [1. 两数之和](https://leetcode.cn/problems/two-sum/)（简单）
+# 「力扣」第 1 题：两数之和（简单）
+
+* 题目链接：https://leetcode.cn/problems/two-sum/
+
+## 题目描述
 
 给定一个整数数组 `nums` 和一个整数目标值 `target`，请你在该数组中找出 **和为目标值** *`target`* 的那 **两个** 整数，并返回它们的数组下标。
 
@@ -30,14 +34,16 @@
 
 **提示：**
 
-- `2 <= nums.length <= 104`
-- `-109 <= nums[i] <= 109`
-- `-109 <= target <= 109`
+- $2 \le nums.length \le 10^4$
+- $-10^9 \le nums[i] \le 10^9$
+- $-10^9 \le target \le 10^9$
+
 - **只会存在一个有效答案**
 
-**进阶：**你可以想出一个时间复杂度小于 `O(n2)` 的算法吗？
+**进阶：**你可以想出一个时间复杂度小于 $O(n^2)$ 的算法吗？
 
----
+
+## 思路分析
 
 ## 方法一：暴力解法
 
@@ -57,7 +63,8 @@ public class Solution {
                 }
             }
         }
-        throw new RuntimeException("没有找到和为 target 的两个数。");
+      	// throw new IllegalArgumentException("没有找到和为 target 的两个数。");
+        return new int[0];
     }
   
 }
@@ -94,8 +101,8 @@ public class Solution {
             }
             hashMap.put(nums[i], i);
         }
-        // return new int[0];
-        throw new IllegalArgumentException("没有找到和为 target 的两个数。");
+        // throw new IllegalArgumentException("没有找到和为 target 的两个数。");
+        return new int[0];
     }
 
 }
