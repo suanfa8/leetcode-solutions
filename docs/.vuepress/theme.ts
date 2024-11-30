@@ -194,8 +194,8 @@ export default hopeTheme({
     // },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
+    revealjs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+    },
   },
 });
