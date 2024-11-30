@@ -1,17 +1,3 @@
----
-title: 「力扣」第 26 题：删除排序数组中的重复项
-date: 2017-06-02 08:00:00
-author: liweiwei1419
-top: false
-mathjax: true
-categories: 循环不变量
-tags:
-  - 数组
-  - 循环不变量
-permalink: leetcode-algo/0026-remove-duplicates-from-sorted-array
----
-
-
 # 「力扣」第 26 题：删除排序数组中的重复项（简单）
 
 * 题目链接：https://leetcode-cn.com/problems/move-zeroes
