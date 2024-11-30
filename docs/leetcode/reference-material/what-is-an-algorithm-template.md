@@ -53,4 +53,3 @@
 
 # 经典问题一句话题解
 
-![](https://picture-bed.dance8.fun/crazy-algo/2024-10-05/d864af50-bccf-43be-a9a8-deef9c03a157.png)

@@ -27,7 +27,12 @@ https://suanfa8.github.io/leetcode-solutions/
 * 启动项目
 
 
+```shell
+npm i
 ```
+
+
+```shell
 npm run docs:dev
 ```
 

@@ -99,10 +99,14 @@ export default hopeTheme({
           },
         },
       ],
+      // 启用下角标功能
       sub: true,
+      // 启用上角标
       sup: true,
       tasklist: true,
       vPre: true,
+
+      tabs: true,
 
       // 在启用之前安装 chart.js
       // chart: true,
