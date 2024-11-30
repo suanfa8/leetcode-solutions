@@ -40,26 +40,36 @@ highlights:
     features:
       - title: 二分查找
         icon: clipboard-check
-        details: 利用有序性或者单调性解决问题的算法
+        details: 利用有序性或者单调性解决问题的算法。很多人说这是模板，但其实代码都是人写的，这样的代码有很直观的语义。
         link: 
 
       - title: 滑动窗口
         icon: box-archive
-        details: 暴力解法的优化
+        details: 暴力解法的优化。
         link: 
 
       - title: 双指针
         icon: box-archive
-        details: 暴力解法的优化
+        details: 暴力解法的优化。
         link: 
       - title: 链表
         icon: box-archive
-        details: 离散的线性数据结构
+        details: 离散的线性数据结构。
         link: 
 
       - title: 哈希表
         icon: box-archive
-        details: 怎么放就怎么取
+        details: 怎么放就怎么取。
+        link: 
+
+      - title: 回溯
+        icon: box-archive
+        details: 尝试每一种可能，在出现答案的位置记录下来
+        link: 
+
+      - title: 贪心算法
+        icon: box-archive
+        details: 用找钱的例子最好了，要不然要尝试所有的可能。贪心算法就是合理剪枝（用数学理论剪枝）。
         link: 
 
 
