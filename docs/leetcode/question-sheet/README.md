@@ -11,6 +11,7 @@
 | 34   | 在排序数组中查找元素的第一个和最后一个位置 | https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/ | 查找第 1 个和最后 1 个等于目标元素的元素。                   |
 | 69   | x 的平方根                                 | https://leetcode.cn/problems/sqrtx/                          | 二分查找的基本问题：查找一个整数。                           |
 | 875  | 爱吃香蕉的珂珂                             | https://leetcode.cn/problems/koko-eating-bananas             | 二分查找的基本问题：查找一个整数。利用单调性。这一类问题很多，一定要掌握。 |
+| 4    | 寻找两个正序数组的中位数                   | https://leetcode.cn/problems/median-of-two-sorted-arrays/    |                                                              |
 
 ## 数组
 
