@@ -43,3 +43,141 @@ icon: laptop-code
 
 - 如何证明 `nums` 中至少存在一个重复的数字?
 - 你可以设计一个线性级时间复杂度 `O(n)` 的解决方案吗？
+
+
+Java 代码：
+
+::: tabs
+
+@tab java
+
+```java
+class Solution {
+    public int findDuplicate(int[] nums) {
+        int len = nums.length; // n + 1 = len, n = len - 1
+        // 在 [left..right] 里查找数组 nums 中重复的整数
+        int left = 1;
+        int right = len - 1;
+        while (left < right) {
+            int mid = (left + right) / 2;
+            // 小于等于 mid 的元素的个数
+            int count = 0;
+            for (int num : nums) {
+                if (num <= mid) {
+                    count++;
+                }
+            }
+            if (count > mid) {
+                // 下一轮搜索区间是 [left..mid]
+                right = mid;
+            } else {
+                // count <= mid，有可能在 [left..mid] 存在重复元素
+                // 下一轮搜索区间是 [mid + 1..right]
+                // 整数区间 [mid + 1..right] 有 right - mid 个整数
+                // 整数区间 [mid + 1..right] 有 len - count >= right + 1 - mid 个元素
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+}
+```
+
+@tab java
+
+```java
+class Solution {
+    
+    public int findDuplicate(int[] nums) {
+        int len = nums.length; // len = n + 1
+        
+        int left = 1;
+        int right = len - 1;
+        while (left < right) {
+            int mid = (left + right) / 2;
+            
+            // 小于等于 mid 的元素个数
+            int count = 0;
+            for (int num : nums) {
+                if (num <= mid) {
+                    count++;
+                }
+            }
+            
+            if (count > mid) {
+                // 下一轮搜索区间是 [left..mid]
+                right = mid;
+            } else {
+                // count <= mid, -count >= - mid
+                // 整数区间 [mid + 1..right] 里有 len - count >= right + 1 - count >= right + 1 - mid
+                // right - mid 个抽屉，right + 1 - mid 个苹果
+                // 下一轮搜索区间是 [mid + 1..right]
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+}
+```
+
+@tab java
+
+```java
+class Solution {
+    public int findDuplicate(int[] nums) {
+        int len = nums.length; // n + 1 = len
+        int left = 1;
+        int right = len - 1;
+        // 在 [left..right] 中一定有一个重复的整数
+        while (left < right) {
+            int mid = (left + right) / 2;
+            // nums 里小于等于 mid 的元素的个数
+            int count = 0;
+            for (int num: nums) {
+                if (num <= mid) {
+                    count++;
+                }
+            }
+            if (count > mid) {
+                // 下一轮搜索区间是 [left..mid]
+                right = mid;
+            } else {
+                // 下一轮搜索区间是 [mid + 1..right]
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+}
+```
+
+@tab java
+
+```java
+class Solution {
+    public int findDuplicate(int[] nums) {
+        int len = nums.length; // len = n + 1
+        int left = 1;
+        int right = len - 1;
+        while (left < right) {
+            int mid = (left + right) / 2;
+            int count = 0;
+            for (int num: nums) {
+                if (num <= mid) {
+                    count++;
+                }
+            }
+            if (count > mid) {
+                // 下一轮搜索区间 [left..mid]
+                right = mid;
+            } else {
+                // 下一轮搜索区间 [mid + 1..right]
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+}
+```
+
+::: 
