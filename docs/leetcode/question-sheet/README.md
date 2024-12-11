@@ -1,39 +1,5 @@
 # 题单
 
-```
-Java 代码：
-
-::: tabs
-
-@tab java
-
-```java
-```
-
-@tab java
-
-```java
-```
-
-::: 
-
-
-Python 代码：
-
-::: tabs
-
-@tab python
-
-```python
-```
-
-@tab python
-
-```python
-```
-::: 
-```
-
 ## 二分查找
 
 | 题号 | 标题                                       | 链接                                                         | 提示                                                         |

@@ -1,5 +1,37 @@
 # 项目简介
 
+Java 代码：
+
+::: tabs
+
+@tab java
+
+```java
+```
+
+@tab java
+
+```java
+```
+
+::: 
+
+
+Python 代码：
+
+::: tabs
+
+@tab python
+
+```python
+```
+
+@tab python
+
+```python
+```
+::: 
+
 ## 是什么？
 
 使用 [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/) 搭建的 **力扣题解** 项目。
@@ -67,3 +99,4 @@ https://blog.51cto.com/aiyc/6037421
 ```
 src/.vuepress/public
 ```
+
